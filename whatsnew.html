@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>What's New - Your Company</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      color: #ff6347;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    .news-list {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .news-item {
+      background: white;
+      padding: 20px 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      cursor: default;
+    }
+
+    .news-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .news-title {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .news-date {
+      font-size: 14px;
+      color: #999;
+      margin-bottom: 15px;
+    }
+
+    .news-description {
+      font-size: 16px;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 15px;
+      }
+
+      .news-item {
+        padding: 15px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>What's New</h1>
+
+  <section class="news-list">
+
+    <article class="news-item">
+      <h2 class="news-title">Introducing the MEG Vision X AI 2nd Gen</h2>
+      <p class="news-date">May 15, 2025</p>
+      <p class="news-description">
+        Experience unprecedented AI-powered gaming performance with the new MEG Vision X AI 2nd Gen. Featuring the latest GPU technology and cutting-edge cooling solutions, this beast redefines power and efficiency.
+      </p>
+    </article>
+
+    <article class="news-item">
+      <h2 class="news-title">Exclusive MSI Creator P100X Launch</h2>
+      <p class="news-date">April 28, 2025</p>
+      <p class="news-description">
+        Designed for creative professionals, the MSI Creator P100X delivers stunning visuals and powerful performance for your most demanding projects. Now available worldwide with special launch discounts.
+      </p>
+    </article>
+
+    <article class="news-item">
+      <h2 class="news-title">Upcoming MSI GE76 Raider Software Update</h2>
+      <p class="news-date">April 10, 2025</p>
+      <p class="news-description">
+        Stay tuned for a new firmware update enhancing system stability, keyboard customization, and thermal management on the MSI GE76 Raider, rolling out next month.
+      </p>
+    </article>
+
+    <article class="news-item">
+      <h2 class="news-title">New MSI Trident X Design Reveal</h2>
+      <p class="news-date">March 20, 2025</p>
+      <p class="news-description">
+        MSI unveils a sleek, compact redesign of the Trident X with improved airflow and RGB customization options to brighten up your gaming setup.
+      </p>
+    </article>
+
+  </section>
+
+</body>
+</html>
